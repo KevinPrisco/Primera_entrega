@@ -21,8 +21,4 @@
     <ProjectReference Include="..\Investigadores.Shared\Investigadores.Shared.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
 </Project>
