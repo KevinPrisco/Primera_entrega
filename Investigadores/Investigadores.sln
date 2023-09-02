@@ -9,10 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Investigadores.API", "Inves
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Investigadores.WEB", "Investigadores.WEB\Investigadores.WEB.csproj", "{B4D8FA30-F557-4671-BF05-9C2F9525BC60}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proyectos.WEB", "Proyectos.WEB\Proyectos.WEB.csproj", "{1BA6176A-61AF-4103-AD06-AD558EE2DDD0}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proyectos.API", "Proyectos.API\Proyectos.API.csproj", "{3A21A816-963A-47DA-BE0F-C417A31CBA5A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,14 +27,6 @@ Global
 		{B4D8FA30-F557-4671-BF05-9C2F9525BC60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4D8FA30-F557-4671-BF05-9C2F9525BC60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4D8FA30-F557-4671-BF05-9C2F9525BC60}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1BA6176A-61AF-4103-AD06-AD558EE2DDD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1BA6176A-61AF-4103-AD06-AD558EE2DDD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1BA6176A-61AF-4103-AD06-AD558EE2DDD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1BA6176A-61AF-4103-AD06-AD558EE2DDD0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3A21A816-963A-47DA-BE0F-C417A31CBA5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3A21A816-963A-47DA-BE0F-C417A31CBA5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3A21A816-963A-47DA-BE0F-C417A31CBA5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3A21A816-963A-47DA-BE0F-C417A31CBA5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

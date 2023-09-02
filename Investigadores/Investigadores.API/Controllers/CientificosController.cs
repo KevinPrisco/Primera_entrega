@@ -144,4 +144,50 @@ namespace Investigadores.API.Controllers
         }
     }
 
+    ///////////////////PROYECTOS////////////////////////////////////////////
+
+    [ApiController]
+    [Route("api/Proyectos")]
+    public class ProyectosController : ControllerBase
+    {
+        private readonly DataContext _context;
+
+        public ProyectosController(DataContext context)
+        {
+            _context = context;
+        }
+
+
+        [HttpGet]
+        public async Task<ActionResult> Get()
+        {
+            return Ok(await _context.Proyectos.ToListAsync());
+        }
+
+        [HttpGet("{Id:int}")]
+        public async Task<ActionResult> Get(int Id)
+        {
+            var proyectos = await _context.Proyectos.FirstOrDefaultAsync(x => x.Id == Id);
+            if (proyectos == null)
+            {
+
+                return NotFound();
+            }
+            else
+            {
+
+                return Ok(proyectos);
+
+            }
+        }
+
+        [HttpPost]
+        public async Task<ActionResult> Post(Proyecto proyecto)
+        {
+            _context.Add(proyecto);
+            await _context.SaveChangesAsync();
+            return Ok(proyecto);
+        }
+    }
+
 }
