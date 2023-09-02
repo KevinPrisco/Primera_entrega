@@ -29,7 +29,7 @@ namespace Investigadores.Shared.Entities
     }
     public class Colaborador
     {
-        public string Id { get; set; }
+        public int Id { get; set; }
 
         public string Nombre { get; set; } = null;
 
